@@ -268,9 +268,4 @@ http://127.0.0.1:8000/predict?url=https://google.com
 
 ---
 
-# 👨‍💻 Author
-- Ekas Babbar, 2nd Year, IIT Guwahati
-- Naisha Rajput, 2nd Year, IIT Roorkee
-
----
 
