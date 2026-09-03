@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 320px;
+  padding: 10px;
+  background: #0f172a;
+  color: white;
+}
+
+.box {
+  text-align: center;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+#url {
+  font-size: 12px;
+  word-break: break-word;
+  margin: 10px 0;
+}
+
+#result {
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background: #1e293b;
+}
