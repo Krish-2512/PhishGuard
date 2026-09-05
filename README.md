@@ -154,11 +154,25 @@ http://127.0.0.1:8000
 
 ---
 
-# 🌐 Chrome Extension Setup
+# 🌐 Chrome Extension Setup (React + Vite)
 
-## 1. Open Chrome Extensions
+## 1. Build the React Extension
 
-Go to:
+Inside the repository:
+
+```bash
+cd extension
+npm install
+npm run build
+```
+
+*(Note: The production build is created in `extension/dist/`)*
+
+---
+
+## 2. Open Chrome Extensions
+
+Navigate to:
 
 ```text
 chrome://extensions
@@ -166,14 +180,14 @@ chrome://extensions
 
 ---
 
-## 2. Enable Developer Mode
+## 3. Enable Developer Mode
 
-Toggle ON:
-- Developer Mode
+Toggle **ON**:
+- **Developer Mode** (top-right corner)
 
 ---
 
-## 3. Load Extension
+## 4. Load Extension
 
 Click:
 
@@ -184,10 +198,10 @@ Load unpacked
 Select:
 
 ```text
-extension/
+extension/dist/
 ```
 
-folder.
+*(Or select `extension/` directly)*
 
 ---
 
